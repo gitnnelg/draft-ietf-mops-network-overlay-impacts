@@ -156,7 +156,7 @@ With the large user base and its usage, the Streaming platforms also have signif
 To meet these challenges streaming platforms have significantly invested in developing delivery architectures that
 are built with detailed understandings of each element in the content delivery pathway starting from the content capture all the way through to the screen of the viewer.
 
-Streaming applications are part of an end-to-end architecture that is optimized around achieving the best experience including low latency video delivery to viewing devices.  The open Internet can be unpredictable with temporary issues like packet loss, congestion and other conditions. However, streaming architecture is desiged to handle these momentary problems as effectively as possible often through use of dynamic adaptive approaches designed into streaming protocols and platform components.
+Streaming applications are part of an end-to-end architecture that is optimized around achieving the best experience including low latency video delivery to viewing devices.  The open Internet can be unpredictable with temporary issues like packet loss, congestion and other conditions. However, streaming architecture is designed to handle these momentary problems as effectively as possible often through use of dynamic adaptive approaches designed into streaming protocols and platform components.
 
 
 # Emerging Operational Issues with Network Overlay Policy Changes
@@ -169,9 +169,9 @@ There are a variety of impacts but a few common classes of issues have been obse
 
 One of the central recurring issues with streaming applications running on devices or networks with changed policies due to network overlays is that the changes are often hidden from the applications.
 
-Applications often find it difficult or even impossible to detect when network policy changes will be active and what they are changing.   For example, a device may have a desingated default DNS resolver for the device, but may have a different resolver selected depending on how the streaming application queries the DNS.
+Applications often find it difficult or even impossible to detect when network policy changes will be active and what they are changing.   For example, a device may have a designated default DNS resolver for the device, but may have a different resolver selected depending on how the streaming application queries the DNS.
 
-Likewise, a streaming application might find that one application transport protocol such as HTTP queries will have one set of routing policies applied to it but a different appliction transport like HTTPS may have a different set of routing policies applied.
+Likewise, a streaming application might find that one application transport protocol such as HTTP queries will have one set of routing policies applied to it but a different application transport like HTTPS may have a different set of routing policies applied.
 
 Streaming applications that cannot determine the exact behavior to be expected can prevent the streaming application from making good content source decisions and can prevent appllications from being able to provide reliable feedback and logs when problems are encountered.
 
@@ -185,7 +185,7 @@ A common issue in video delivery is locating where along the delivery path the v
 
 ### CDN Edge Cache Selection due to Routing
 
-A significant, and often overlooked problm is the addition of network latency compared to edge CDN caches or access network peering connections.  Routing changes which cause bypassing edge CDN caches and instead choosing less optimal caches
+A significant, and often overlooked problem is the addition of network latency compared to edge CDN caches or access network peering connections.  Routing changes which cause bypassing edge CDN caches and instead choosing less optimal caches
 
 ~~~
  R  = router
@@ -234,7 +234,7 @@ The problem for streaming applications occurs when the underlying network proper
 While the open Internet is a dynamic environment, changing of basic network behavior and policies from what is expected as seen from the streaming application,  deviate unexpectedly from what the streaming application expects. This behavior disrupts the optimized streaming delivery architecture for the end-user device.  Changes to Network Policies such the routing, source IP address assigned to the streaming application traffic, DNS resolver choice etc influences this behavior.
 
 Having a reliable understanding of the delivery path is essential for streaming operators and the introduction
-of network overlays like those based on technologies such as MASQUE especially when designed to be undetectable by the applications using them has introduced new technical challengess for streaming operators and network operators as well as for their viewers.
+of network overlays like those based on technologies such as MASQUE especially when designed to be undetectable by the applications using them has introduced new technical challenges for streaming operators and network operators as well as for their viewers.
 
 The core problem occurs when changes to network policies are made, often without notification or visibilty to applications and
 without clear methods of probing to determine and test changed behaviors that affect the streaming application\'s content
